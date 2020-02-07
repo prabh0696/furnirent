@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+
+            android:title="Home" />
+        <item
+            android:id="@+id/about"
+
+            android:title="About Us" />
+        <item
+            android:id="@+id/gallery"
+
+            android:title="Gallery" />
+
+    </group>
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/products"
+        android:title="Products"/>
+
+            <item
+                android:id="@+id/chairs"
+
+                android:title="Chairs" />
+            <item
+                android:id="@+id/beds"
+
+                android:title="Beds" />
+            <item
+                android:id="@+id/tables"
+
+                android:title="Tables" />
+            <item
+                android:id="@+id/couches"
+
+                android:title="Couches" />
+
+    </group>
+
+    <item android:title="Want To Ask Something?">
+        <menu>
+            <item
+                android:id="@+id/purchase"
+
+                android:title="Send Query" />
+        </menu>
+    </item>
+    <item android:title="How To Contact Us?">
+        <menu>
+            <item
+                android:id="@+id/nav_reachus"
+
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+
+</menu>

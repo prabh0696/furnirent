@@ -1,0 +1,37 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" About Us "
+        android:textColor="@android:color/primary_text_dark"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:background="@drawable/register">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="“Furni Rent” is designed for a wide market, it’s not something to be designed for a niche crowd.
+Furni Rent is designed for everyone struggling out their to achieve their dreams, everyone who
+don’t yet have a reliable source of income, every single one who is still a student but want to have
+the best lifestyle, every co-op where they need new furnishing every once in a while, it’s designed
+for you and for me.
+“Furni Rent” is an app where you can rent the furniture based on your requirements and time
+frame. Say you need a few chairs for your place for about 1 month, and there you have an agreement
+of 1 month with the rental cost. and with that being said, you can increase the time frame
+you want the furniture for, from 1 month to 1 year. However, the app doesn’t allow you to rent the
+furniture for less than a month, unless it’s for a corporate meeting of a co-op environment, considering
+those as an exception."
+        android:textColor="@android:color/primary_text_dark"
+        android:textSize="20dp"
+        android:layout_margin="10dp">
+    </TextView>
+
+
+</LinearLayout>

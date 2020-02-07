@@ -1,0 +1,246 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/register"
+        android:layout_gravity="center"
+        >
+        <TextView android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" COUCHES "
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/primary_text_dark"
+            android:gravity="center">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/compressora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="-100dp"
+            android:src="@drawable/couch1"
+            android:layout_gravity="center"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-280px"
+        android:layout_marginRight="-90dp"
+        android:layout_marginLeft="175dp"
+        android:background="@drawable/muticolorr"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+
+            android:padding="5dp"
+            android:text=" RENT:-100$/Month "
+            android:textColor="@android:color/black"
+            android:textSize="22dp"
+            ></TextView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginRight="-90dp"
+        android:layout_marginLeft="175dp"
+        android:background="@drawable/muticolorr"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editcouch1"
+
+
+            android:padding="5dp"
+            android:hint="enter number of months"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            ></EditText>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginRight="-90dp"
+        android:layout_marginLeft="175dp"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/muticolorr"
+            android:id="@+id/btn1"
+
+
+
+            android:text="Total:"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            ></Button>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-98px"
+        android:layout_marginRight="-90dp"
+        android:layout_marginLeft="285dp"
+        android:background="@drawable/muticolorr"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textcouch1"
+
+
+            android:padding="10dp"
+            android:text="  __$  "
+            android:textColor="@android:color/black"
+            android:textSize="22dp"
+            ></TextView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/compressorb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/couch2"></ImageView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-145dp"
+        android:layout_marginRight="-90dp"
+        android:layout_marginLeft="175dp"
+        android:background="@drawable/muticolorr"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+
+            android:padding="5dp"
+            android:text=" RENT:-90$/Month "
+            android:textColor="@android:color/black"
+            android:textSize="22dp"
+            ></TextView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+
+        android:layout_marginLeft="175dp"
+        android:background="@drawable/muticolorr"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editcouch2"
+
+
+            android:padding="5dp"
+            android:hint="enter number of months"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            ></EditText>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="-90dp"
+        android:layout_marginLeft="175dp"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/muticolorr"
+            android:id="@+id/btn2"
+
+
+
+            android:text="Total:"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            ></Button>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:layout_marginRight="-90dp"
+        android:layout_marginLeft="285dp"
+        android:background="@drawable/muticolorr"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textcouch2"
+
+
+            android:padding="10dp"
+            android:text="  __$  "
+            android:textColor="@android:color/black"
+            android:textSize="22dp"
+            ></TextView>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+

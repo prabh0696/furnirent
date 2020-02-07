@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/registerback">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Register Here : "
+                android:textColor="@android:color/primary_text_dark"
+                android:background="@drawable/muticolor"
+                android:textSize="30dp"
+                android:textStyle="italic"
+                android:layout_marginTop="15dp"
+
+                android:layout_marginBottom="40dp"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="356dp"
+            android:layout_gravity="center"
+            android:background="@drawable/muticolorr"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-25dp"
+                    android:padding="20dp"
+                    android:text="   NAME:"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="27dp"
+                    android:textStyle="italic"></TextView>
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-15dp"
+                    android:layout_marginTop="-25dp"
+                    android:hint="enter full name"
+                    android:inputType="textWebEmailAddress"
+                    android:padding="20dp"
+                    android:textColor="@android:color/darker_gray"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="20dp"
+                    android:textStyle="italic"></EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-25dp"
+                    android:padding="20dp"
+                    android:text="EMAIL ID:"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="27dp"
+                    android:textStyle="italic"></TextView>
+
+                <EditText
+                    android:id="@+id/lemail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-15dp"
+                    android:layout_marginTop="-25dp"
+                    android:hint="enter your email"
+                    android:inputType="textWebEmailAddress"
+                    android:padding="20dp"
+                    android:textColor="@android:color/darker_gray"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="20dp"
+                    android:textStyle="italic"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:padding="15dp"
+                    android:text="PASSWORD:"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="27dp"
+                    android:textStyle="italic"></TextView>
+
+                <EditText
+                    android:id="@+id/lupass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-17dp"
+                    android:layout_marginTop="-5dp"
+                    android:hint="enter password  "
+                    android:inputType="textPassword"
+                    android:padding="15dp"
+                    android:textColor="@android:color/darker_gray"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="19dp"
+                    android:textStyle="italic"></EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:padding="15dp"
+                    android:text="   MOBILE:"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="27dp"
+                    android:textStyle="italic"></TextView>
+
+                <EditText
+                    android:id="@+id/mob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-17dp"
+                    android:layout_marginTop="-5dp"
+                    android:hint="enter mobile no.  "
+                    android:inputType="textPassword"
+                    android:padding="15dp"
+                    android:textColor="@android:color/darker_gray"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="19dp"
+                    android:textStyle="italic"></EditText>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/muticolor"
+                android:text=" Register "
+                android:textColor="@android:color/primary_text_dark"
+                android:textSize="28dp"
+                android:textStyle="italic"></Button>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

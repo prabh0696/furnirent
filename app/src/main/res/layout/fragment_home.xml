@@ -1,0 +1,23 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/a"
+        android:id="@+id/slide"
+        android:layout_marginTop="-90dp">
+    </ImageView>
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="-90dp"
+        android:text="“Furni Rent”, an app designed for those who are not in the best position to pay the full price for
+the furniture for their place, may it be a Couch, a dining table, a bed or even a chair. We all know
+how high the prices are flying in the market of Furniture, let alone the high end ones.Furni Rent brings you a platform to design the home you’ve always dreamt of in a
+much affordable way."
+        android:textSize="20dp"
+        android:textColor="@android:color/primary_text_dark">
+    </TextView>
+</LinearLayout>

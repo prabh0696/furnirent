@@ -1,0 +1,165 @@
+
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_height="110dp"
+                android:layout_width="110dp"
+                android:background="@drawable/registercolour"
+                android:text="Any\n  Query? "
+                android:textColor="@android:color/primary_text_dark"
+                android:textSize="22dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginBottom="20dp">
+            </Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="-20dp">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="YOUR NAME:"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:textSize="25dp"
+                    android:padding="20dp"
+                    android:layout_marginTop="-25dp"
+                    android:textStyle="italic">
+                </TextView>
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:hint=" enter name"
+                    android:textSize="25dp"
+                    android:padding="20dp"
+                    android:textStyle="italic"
+                    android:textColorHint="@android:color/primary_text_dark"
+                    android:id="@+id/name"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_marginTop="-25dp"
+                    android:layout_marginLeft="-15dp">
+                </EditText>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="MOBILE NO:"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:textSize="25dp"
+                    android:textStyle="italic"
+                    android:padding="20dp"
+                    android:layout_marginTop="-25dp">
+                </TextView>
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:hint="enter mobile no"
+                    android:textSize="25dp"
+                    android:padding="20dp"
+                    android:textStyle="italic"
+                    android:textColorHint="@android:color/primary_text_dark"
+                    android:id="@+id/mob"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_marginTop="-25dp"
+                    android:layout_marginLeft="-20dp"
+                    android:inputType="phone">
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="     QUERY:"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:textSize="25dp"
+                    android:textStyle="italic"
+                    android:padding="20dp"
+                    android:layout_marginTop="-25dp">
+                </TextView>
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:hint="enter your query"
+                    android:textSize="25dp"
+                    android:padding="20dp"
+                    android:textStyle="italic"
+                    android:textColorHint="@android:color/primary_text_dark"
+                    android:id="@+id/msg"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:layout_marginTop="-25dp"
+                    android:layout_marginLeft="-20dp">
+                </EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="prabhnoors287@gmail.com"
+                    android:textSize="5dp"
+                    android:padding="20dp"
+                    android:textStyle="italic"
+                    android:textColorHint="@android:color/primary_text_dark"
+                    android:id="@+id/edit"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:layout_marginTop="-25dp"
+                    android:visibility="invisible"
+                    android:layout_marginLeft="-20dp"
+                    android:inputType="textEmailAddress">
+                </EditText>
+            </LinearLayout>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/register"
+            android:textSize="26dp"
+            android:text=" SEND "
+
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            android:layout_gravity="center"
+            android:textColor="@android:color/primary_text_dark"
+            android:id="@+id/send">
+        </Button>
+    </LinearLayout>
+</ScrollView>
+

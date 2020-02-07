@@ -1,0 +1,38 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" How To Reach Us? "
+        android:textColor="@android:color/primary_text_dark"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:background="@drawable/register">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="
+Office Address :\n
+5151, Guy Concordia, Montreal (Quebec), Canada\n\n
+Email :\n
+furnirent@gmail.com \n info@furnirent.com  \n\n
+Mobile :\n
+Prabhnoor Singh-438-111-2567\n
+Divya Gate-514-367-4567\n
+Madhav Makkar-514-567-8567\n
+Angad Singh-440-567-2344\n\n
+Website :\n
+www.furnirent.co.ca"
+
+        android:textColor="@android:color/primary_text_dark"
+        android:textSize="20dp"
+        android:layout_margin="10dp">
+    </TextView>
+
+
+</LinearLayout>
